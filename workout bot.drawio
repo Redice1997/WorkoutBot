@@ -1,0 +1,325 @@
+<mxfile host="app.diagrams.net" modified="2024-07-07T21:15:35.603Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="ANYcRKpoSLhw1kLHEaRW" version="24.5.2" type="device">
+  <diagram name="Page-1" id="AfoRQf2oxVN7gn3J2-Ah">
+    <mxGraphModel dx="6480" dy="2310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="90" y="60" width="370" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="hpsupyF2JZPl5m4Q46eL-3" value="Start" style="swimlane;whiteSpace=wrap;html=1;" parent="55Nz_nL3BHuwRcQdSlVT-2" vertex="1">
+          <mxGeometry width="370" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hpsupyF2JZPl5m4Q46eL-7" value="&lt;div align=&quot;left&quot;&gt;Здарова, дрищ. Я бот, который поможет набрать тебе в силовых и жать, как минимум, сотку от груди. Моя программа сонована на методике из этого&amp;nbsp; &amp;lt;a src=&quot;https://www.youtube.com/watch?v=bWnKmO0aj3c&quot;&amp;gt;видео&amp;lt;/a&amp;gt;. &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Я создам тебе программу тренировок по-умолчанию с целью на 150кг в жиме лёжа, однако, ты сможешь в любой момент настроить параметры под себя.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Команды:&lt;/div&gt;&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;/workouts - посмотреть список тренировок&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/start_workout - начать тренировку&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/progress - посмотреть свой прогресс&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="hpsupyF2JZPl5m4Q46eL-3" vertex="1">
+          <mxGeometry x="7.5" y="30" width="355" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hpsupyF2JZPl5m4Q46eL-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="55Nz_nL3BHuwRcQdSlVT-2" vertex="1">
+          <mxGeometry x="90" y="118" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-1" value="Посмотреть список тренировок" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-2">
+          <mxGeometry y="260" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-10" target="55Nz_nL3BHuwRcQdSlVT-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-11" target="55Nz_nL3BHuwRcQdSlVT-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-145" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-12" target="hpsupyF2JZPl5m4Q46eL-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="535" />
+              <mxPoint x="20" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-1" target="55Nz_nL3BHuwRcQdSlVT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="90" y="410" width="370" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-8" value="SelectWorkouts" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-25">
+          <mxGeometry width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-9" value="Список твоих тренировок" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-8">
+          <mxGeometry x="95" y="30" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-10" value="Создать новую" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-25">
+          <mxGeometry y="80" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-11" value="Жим лежа" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-25">
+          <mxGeometry y="50" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-12" value="Вернуться" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-25">
+          <mxGeometry y="110" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-40" target="55Nz_nL3BHuwRcQdSlVT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-43" value="AwaitForWorkoutCreate" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="540" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-45" value="&lt;div align=&quot;left&quot;&gt;Введи название тренировки.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Например:&lt;/div&gt;&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;Жим лежа&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Приседания&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Становая тяга&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Подтягивания&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-43">
+          <mxGeometry x="20" y="30" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-47" target="55Nz_nL3BHuwRcQdSlVT-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-47" value="&lt;div&gt;AwaitForWorkoutCreate:&lt;/div&gt;UserID" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="537.5" y="760" width="245" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-45" target="55Nz_nL3BHuwRcQdSlVT-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-37" target="55Nz_nL3BHuwRcQdSlVT-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-57" value="Вернуться" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1310" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-51" value="EditWorkout" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="960" width="280" height="222.72727272727272" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-52" value="&lt;div align=&quot;left&quot;&gt;Тренировка &quot;Жим лежа&quot;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Назавние: Жим лежа&lt;br&gt;&lt;/div&gt;&lt;div&gt;Единица измерения: кг&lt;/div&gt;&lt;div&gt;Базовый рабочий: 50 кг (на 8 повторений)&lt;br&gt;&lt;/div&gt;&lt;div&gt;Целевой рабочий: 150 кг&lt;/div&gt;&lt;div&gt;Шаг: 5 кг&lt;/div&gt;&lt;div&gt;Цикл подходов: 4 5 6 6&lt;/div&gt;&lt;div&gt;Цикл повторений: 8 6 4 2&lt;/div&gt;&lt;div&gt;Стадия в цикле: 1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Что желаешь изменить?&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-51">
+          <mxGeometry x="10" y="42.42424242424242" width="240" height="169.6969696969697" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-53" value="Название" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1182.7272727272727" width="140" height="31.818181818181817" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-62" target="55Nz_nL3BHuwRcQdSlVT-117">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-58" value="Единицу измерения" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1182.7272727272727" width="140" height="31.818181818181817" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-59" value="Базовый рабочий" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1214.5454545454545" width="140" height="31.818181818181817" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-60" value="Целевой рабочий" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1214.5454545454545" width="140" height="31.818181818181817" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-61" value="Цикл подходов" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1246.3654545454544" width="140" height="31.818181818181817" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-62" value="Цикл повторений" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1246.3654545454544" width="140" height="31.818181818181817" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-63" value="Сдаия в цикле" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1278.1854545454544" width="140" height="31.818181818181817" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-64" value="Шаг" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1278.1854545454544" width="140" height="31.818181818181817" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-66" value="EnsureToDeleteWorkout" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="950" width="255" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-75" value="&lt;div&gt;Ты уверен что хочешь удалить тренировку: &quot;Жим лежа&quot; ?&lt;br&gt;&lt;/div&gt;Вся статистика по этой тренировке будет также удалена" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-66">
+          <mxGeometry x="12.5" y="25" width="227.5" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-39" target="55Nz_nL3BHuwRcQdSlVT-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-305" y="845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-70" value="StartWorkout" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="980" width="290" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-73" value="&lt;div align=&quot;left&quot;&gt;Окей, к делу!&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Первый подход&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Сделай 8 повтореий и заверши подход.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Если не вывозишь отменяй и настраивай параметры тренировки&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-70">
+          <mxGeometry x="20" y="30" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-36" target="55Nz_nL3BHuwRcQdSlVT-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-590" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-76" value="Удалить" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="1060" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-77" value="Вернуться" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="1090" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-79" target="55Nz_nL3BHuwRcQdSlVT-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="1206" />
+              <mxPoint x="60" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-79" value="DeleteWorkout" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1162" width="250" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-81" value="&lt;div&gt;Тренировка: &quot;Жим лежа&quot; удалена.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-79">
+          <mxGeometry x="5" y="32.36" width="240" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-83" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-290" y="630" width="280" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-33" value="SelectWorkout" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-83">
+          <mxGeometry width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-35" value="&lt;div align=&quot;left&quot;&gt;Тренировка &quot;Жим лежа&quot;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Текущий рабочий: 50 кг&lt;/div&gt;&lt;div&gt;Подходов: 4&lt;br&gt;&lt;/div&gt;&lt;div&gt;Повторений: 8&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-33">
+          <mxGeometry x="10" y="40" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-36" value="Начать" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-83">
+          <mxGeometry y="140" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-37" value="Настроить" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-83">
+          <mxGeometry y="170" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-39" value="Удалить" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-83">
+          <mxGeometry y="200" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-40" value="Вернуться" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-83">
+          <mxGeometry y="230" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-84" target="55Nz_nL3BHuwRcQdSlVT-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-915" y="1198" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-915" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-84" value="Завершить подход" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="1130" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-85" target="55Nz_nL3BHuwRcQdSlVT-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-300" y="1190" />
+              <mxPoint x="-300" y="1310" />
+              <mxPoint x="-155" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-85" value="Отменить тренировку" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="1170" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-87" value="ContinueWorkout" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="1320" width="290" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-88" value="&lt;div&gt;Отлично! Еще 3 подхода&lt;/div&gt;&lt;div&gt;Подход №2&lt;/div&gt;&lt;div&gt;Завершай или пасуй&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-87">
+          <mxGeometry x="20" y="30" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-89" target="55Nz_nL3BHuwRcQdSlVT-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-89" value="Завершить подход" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="1470" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-90" value="Отменить тренировку" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="1510" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-94" target="55Nz_nL3BHuwRcQdSlVT-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-94" target="55Nz_nL3BHuwRcQdSlVT-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1170" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-94" value="Это будет 4 из 4 подходов?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1025" y="1210" width="220" height="90.27" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-95" value="&lt;div&gt;Нет&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-805" y="1220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-96" value="Да" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="1224.27" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-100" value="FinishWorkout" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1270" y="1340" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-102" value="&lt;div&gt;Красавчик! Тренировка завершена.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Все параметры попадут в статистику. Там ты сможешь посмотреть например сколько сделал повторений за неделю, а также собственный прогресс. И примерную дату, достижения цели." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-100">
+          <mxGeometry x="7.5" y="30" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-103" target="55Nz_nL3BHuwRcQdSlVT-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1310" y="1540" />
+              <mxPoint x="-1310" y="390" />
+              <mxPoint x="183" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-103" value="К списку тренировок" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1270" y="1520" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-90" target="55Nz_nL3BHuwRcQdSlVT-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-113" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-360" y="1440" width="410" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-106" value="CancelWorkout" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-113">
+          <mxGeometry width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-107" value="Я отменил тренировку. Попробуй перенастроить параметры, если не справляешься с программой. В любом случае, данные о тренировке не попадут в статистику, так что набирайся сил и приступай как будешь готов" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-106">
+          <mxGeometry x="10" y="30" width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-108" value="К списку тренировок" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-113">
+          <mxGeometry y="140" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1310" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-117" value="AwaitForWorkoutUpdate" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1300.27" width="290" height="249.73000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-118" value="&lt;div align=&quot;left&quot;&gt;Хорошо. Введи новое значение для параметра &quot;Цикл повторений&quot;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Учти, что значения должны быть целочисленными и положительными, иначе изменения не вступят в силу.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Также учти, что количество значений в циклах будут согласованы и заполнены единицами, а номер стадии не должен выходить за пределы циклов&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Пример ввода: &quot;8 6 4 2*&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-117">
+          <mxGeometry x="10" y="29.730000000000018" width="280" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-119" target="55Nz_nL3BHuwRcQdSlVT-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-119" value="&lt;div&gt;AwaitForWorkoutUpdate&lt;/div&gt;&lt;div&gt;workoutID&lt;/div&gt;&lt;div&gt;parameterID&lt;br&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="542.5" y="1620" width="295" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-118" target="55Nz_nL3BHuwRcQdSlVT-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-125" value="CreateWorkout" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="640" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-126" value="Тренировка &quot;Присед&quot; Успешно создана" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-125">
+          <mxGeometry y="30" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.007;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-125" target="55Nz_nL3BHuwRcQdSlVT-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-130" value="UpdateWorkoutParameter" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1800" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-132" value="Параметер успешно обновлен" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-130">
+          <mxGeometry x="10" y="40" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-133" value="Невалидные данные" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55Nz_nL3BHuwRcQdSlVT-130">
+          <mxGeometry x="10" y="120" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="55Nz_nL3BHuwRcQdSlVT-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.999;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="55Nz_nL3BHuwRcQdSlVT-130" target="55Nz_nL3BHuwRcQdSlVT-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
