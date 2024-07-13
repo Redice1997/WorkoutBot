@@ -2,13 +2,17 @@ package models
 
 type Message struct {
 	Text             string
+	IsHtml           bool
 	Keyboard         Keyboard
 	IsInlineKeyboard bool
-	IsHtml           bool
 }
 
-func NewMessage(text string, keyboard Keyboard, isInlineKeyboard bool, isHtml bool) *Message {
-	return &Message{text, keyboard, isInlineKeyboard, isHtml}
+func NewMessage(text string, isHtml bool) *Message {
+	return &Message{text, isHtml, nil, false}
+}
+
+func NewMessageWithKeyboard(text string, isHtml bool, keyboard Keyboard, isInlineKeyboard bool) *Message {
+	return &Message{text, isHtml, keyboard, isInlineKeyboard}
 }
 
 type Keyboard [][]Button

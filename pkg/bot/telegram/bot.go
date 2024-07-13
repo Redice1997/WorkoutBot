@@ -89,6 +89,9 @@ func (b *TelegramBot) HandleUpdate(ctx context.Context, update tgbotapi.Update) 
 	case update.CallbackQuery != nil:
 		response, err = b.HandleAction(userCtx, update.CallbackQuery.Data)
 	}
+	if err != nil {
+		return tgbotapi.MessageConfig{}, err
+	}
 
 	msg = tgbotapi.NewMessage(update.FromChat().ID, response.Text)
 	if response.IsHtml {
@@ -107,8 +110,9 @@ func (b *TelegramBot) HandleUpdate(ctx context.Context, update tgbotapi.Update) 
 }
 
 const (
-	StartCmd    = "start"
-	WorkoutsCmd = "workouts"
+	StartCmd     = "start"
+	WorkoutsCmd  = "workouts"
+	StartWorkout = "start_workout"
 )
 
 func (b *TelegramBot) HandleMessage(ctx models.UserContext, msg *tgbotapi.Message) (resp *models.Message, err error) {
@@ -122,25 +126,28 @@ func (b *TelegramBot) HandleMessage(ctx models.UserContext, msg *tgbotapi.Messag
 		switch msg.Command() {
 		case StartCmd:
 			return models.NewStartAction().Invoke(ctx, b.storage)
+		case WorkoutsCmd:
+			user, err := b.storage.GetUserByExternalID(ctx, ctx.ExternalID())
+			if err != nil {
+				return nil, err
+			}
+			if user == nil {
+				return models.NewStartAction().Invoke(ctx, b.storage)
+			}
+			return models.NewSelectWorkoutsAction(user.ID).Invoke(ctx, b.storage)
 		}
 	}
 
-	action, exist := b.storage.GetAction(ctx, strconv.FormatInt(msg.From.ID, 10))
+	action, exist := b.storage.GetAction(ctx, ctx.ExternalID())
 	if exist {
-		err := action.Update(msg.Text)
+		err := action.UpdateParameters(msg.Text)
 		if err != nil {
-			var lang models.Language
-			if msg.From.LanguageCode == "ru" {
-				lang = models.RU
-			} else {
-				lang = models.EN
-			}
-			text, err := b.storage.GetReplica(models.WrongFormatReplica, lang)
+			text, err := b.storage.GetReplica(models.WrongFormatReplica, ctx.Language())
 			if err != nil {
 				return nil, err
 			}
 
-			return &models.Message{Text: text}, nil
+			return models.NewMessage(text, false), nil
 		}
 		return action.Invoke(ctx, b.storage)
 	}

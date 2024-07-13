@@ -67,5 +67,5 @@ func (a *SelectWorkoutsAction) Invoke(ctx UserContext, storage Storage) (*Messag
 	}
 	keyboard = append(keyboard, []Button{{Text: createNewText}})
 	keyboard = append(keyboard, []Button{{Text: backText, Action: NewStartAction()}})
-	return NewMessage(text, keyboard, true, false), nil
+	return NewMessageWithKeyboard(text, false, keyboard, true), nil
 }

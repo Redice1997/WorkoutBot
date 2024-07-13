@@ -12,7 +12,7 @@ type Action interface {
 
 type UpdatableAction interface {
 	Action
-	Update(params string) error
+	UpdateParameters(params string) error
 }
 
 type ActionType int

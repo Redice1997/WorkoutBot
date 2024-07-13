@@ -53,5 +53,5 @@ func (a *StartAction) Invoke(ctx UserContext, storage Storage) (*Message, error)
 
 	keyboard := Keyboard{{{Text: text, Action: NewSelectWorkoutsAction(user.ID)}}}
 
-	return NewMessage(text, keyboard, true, true), nil
+	return NewMessageWithKeyboard(text, true, keyboard, true), nil
 }
