@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS "replics";
+DROP TABLE IF EXISTS "stats";
+DROP TABLE IF EXISTS "workouts";
+DROP TABLE IF EXISTS "users";

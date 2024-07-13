@@ -1,20 +1,29 @@
 package models
 
 import (
-	"context"
 	"fmt"
 )
 
 type Action interface {
 	Type() ActionType
 	String() string
-	Invoke(ctx context.Context, handler ActionHandler) (*Message, error)
+	Invoke(ctx UserContext, handler Storage) (*Message, error)
+}
+
+type UpdatableAction interface {
+	Action
+	Update(params string) error
 }
 
 type ActionType int
 
 const (
 	StartActionType ActionType = iota
+	SelectWorkoutsActionType
+	SelectWorkoutActionType
+	StartWorkoutActionType
+	ContinueWorkoutActionType
+	FinishWorkoutActionType
 )
 
 type ActionHandler interface {
@@ -35,7 +44,9 @@ func ParseAction(input string) (action Action, err error) {
 	}
 	switch t {
 	case StartActionType:
-		return parseStartActionStruct(s)
+		return parseStartAction(s)
+	case SelectWorkoutsActionType:
+		return parseSelectWorkoutsAction(s)
 	}
 
 	return nil, fmt.Errorf("action is not implemented")

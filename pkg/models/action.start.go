@@ -1,19 +1,16 @@
 package models
 
 import (
-	"context"
 	"fmt"
 )
 
 type StartAction struct {
-	t          ActionType
-	externalID string
+	t ActionType
 }
 
-func NewStartAction(externalID string) *StartAction {
+func NewStartAction() *StartAction {
 	return &StartAction{
-		t:          StartActionType,
-		externalID: externalID,
+		t: StartActionType,
 	}
 }
 
@@ -22,28 +19,39 @@ func (a *StartAction) Type() ActionType {
 }
 
 func (a *StartAction) String() string {
-	return fmt.Sprintf("%d{ %s }", a.t, a.externalID)
+	return fmt.Sprintf("%d{ }", a.t)
 }
 
-func parseStartActionStruct(s string) (*StartAction, error) {
-	var externalID string = s
-	return NewStartAction(externalID), nil
+func parseStartAction(s string) (*StartAction, error) {
+	return NewStartAction(), nil
 }
 
-func (a *StartAction) Invoke(ctx context.Context, handler ActionHandler) (*Message, error) {
+func (a *StartAction) Invoke(ctx UserContext, storage Storage) (*Message, error) {
 
-	text := `Здарова, дрищ. Я бот, который поможет набрать тебе в силовых и жать, как минимум, сотку от груди. 
-	Моя программа сонована на методике из этого <a src="https://www.youtube.com/watch?v=bWnKmO0aj3c">видео</a>.
+	user, err := storage.GetUserByExternalID(ctx, ctx.ExternalID())
+	if err != nil {
+		return nil, err
+	}
 
-	Я создам тебе программу тренировок по-умолчанию с целью на 150кг в жиме лёжа, однако, ты сможешь в любой момент настроить параметры под себя.
+	text, err := storage.GetReplica(StartActionReplica, ctx.Language())
+	if err != nil {
+		return nil, err
+	}
 
-	Команды:
+	if user == nil {
+		user, err = storage.CreateUser(ctx, &User{
+			ID:         0,
+			Username:   ctx.Username(),
+			ExternalID: ctx.ExternalID(),
+			Role:       0,
+			Language:   ctx.Language(),
+		})
+		if err != nil {
+			return nil, err
+		}
+	}
 
-		/workouts - посмотреть список тренировок
-		/start_workout - начать тренировку
-		/progress - посмотреть свой прогресс`
+	keyboard := Keyboard{{{Text: text, Action: NewSelectWorkoutsAction(user.ID)}}}
 
-	keyboard := Keyboard{{{Text: "/start", Action: NewStartAction(a.externalID)}}}
-
-	return &Message{Text: text, InlineKeyboard: keyboard}, nil
+	return NewMessage(text, keyboard, true, true), nil
 }
