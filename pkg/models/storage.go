@@ -25,7 +25,7 @@ type WorkoutStorage interface {
 	CreateWorkoutProgram(ctx context.Context, wp *WorkoutProgram) (*WorkoutProgram, error)
 	GetWorkoutProgram(ctx context.Context, workoutprogramID int64) (*WorkoutProgram, error)
 	GetWorkoutPrograms(ctx context.Context, userID int64) ([]WorkoutProgram, error)
-	UpdateWorkoutProgram(ctx context.Context, wp *WorkoutProgram)
+	UpdateWorkoutProgram(ctx context.Context, wp *WorkoutProgram) (*WorkoutProgram, error)
 	DeleteWorkoutProgram(ctx context.Context, workoutprogramID int64) error
 }
 

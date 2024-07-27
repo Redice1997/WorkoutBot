@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+
 	bot := telegram.New(telegram.TelegramBotConfig{
 		Token:          os.Getenv("TELEGRAM_API_TOKEN"),
 		PollingTimeout: 30 * time.Second,

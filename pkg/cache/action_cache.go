@@ -1,15 +1,14 @@
 package cache
 
 import (
-	"strconv"
 	"time"
 	"workout_bot/pkg/models"
 )
 
 type ActionCache interface {
-	Get(userID int64) (*models.Action, bool)
-	Set(userID int64, action *models.Action)
-	Delete(userID int64)
+	Get(externalID string) (models.UpdatableAction, bool)
+	Set(externalID string, action models.UpdatableAction)
+	Delete(externalID string)
 }
 
 type actionCache struct {
@@ -20,22 +19,22 @@ func NewActionCache(defaultExpiration, cleanupInterval time.Duration) ActionCach
 	return &actionCache{New(defaultExpiration, cleanupInterval)}
 }
 
-func (c *actionCache) Get(userID int64) (*models.Action, bool) {
-	item, found := c.Cache.Get(strconv.FormatInt(userID, 10))
+func (c *actionCache) Get(externalID string) (models.UpdatableAction, bool) {
+	item, found := c.Cache.Get(externalID)
 	if !found {
 		return nil, false
 	}
-	action, ok := item.(*models.Action)
+	action, ok := item.(models.UpdatableAction)
 	if !ok {
 		return nil, false
 	}
 	return action, true
 }
 
-func (c *actionCache) Set(userID int64, action *models.Action) {
-	c.Cache.Set(strconv.FormatInt(userID, 10), action, 0)
+func (c *actionCache) Set(externalID string, action models.UpdatableAction) {
+	c.Cache.Set(externalID, action, 0)
 }
 
-func (c *actionCache) Delete(userID int64) {
-	c.Cache.Delete(strconv.FormatInt(userID, 10))
+func (c *actionCache) Delete(externalID string) {
+	c.Cache.Delete(externalID)
 }
